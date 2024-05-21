@@ -14,3 +14,5 @@ homework:
 	@echo $(CYAN)" ------------------ "$(COLOR_LIMITER)
 	@echo $(CYAN)"|  End of answers  |"$(COLOR_LIMITER)
 	@echo $(CYAN)" ------------------ "$(COLOR_LIMITER)
+
+.PHONY: homework
