@@ -1,0 +1,15 @@
+- sudo apt-get update
+
+- sudo apt-get install git-all
+    - git config --global user.name "olawanlejoel"
+    - git config --global user.email "mymail@gmail.com"
+
+- criar SSH para acesso remoto
+    - ssh-keygen -t rsa -C seu@email.com
+    - ssh -T git@github.com
+    - sempre acessar repositorio com SSH
+
+2 -
+- MLflow:
+    - mlflow ui --backend-store-uri sqlite:///mlflow.db
+    - mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
